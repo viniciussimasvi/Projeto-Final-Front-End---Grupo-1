@@ -1,0 +1,214 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #5271ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+i#burguer{
+  background-color: none;
+  color: white;
+  display: block;
+  text-align: center;
+  height: 25px;
+  margin-top: 31px;
+  margin-right: 20px;
+}
+
+i#burguer:hover{
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo-imagem > img{
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.container-logo{
+  display: flex;
+  align-items: center;
+}
+.logo-texto{
+  margin-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+menu{
+  align-items: center;
+}
+
+menu > ul{
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+menu > ul > li{
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+menu > ul > li > a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+menu > ul > li > a:hover{
+  text-decoration: underline;
+  padding-bottom: 2px;
+  transition: background-color .5s;
+
+}
+@media screen and (min-width: 768px){
+  i#burguer{
+      display:none
+  }
+  menu{
+      display: block;
+  }
+
+  menu > ul > li{
+      display: inline-block;
+  }
+}
+body {
+  background-color: #0a0f24;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffc3;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.container .contact-card .contact-info h1{
+  color: blue;
+}
+.contact-card {
+  background: rgba(228, 25, 25, 0.05);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 255, 195, 0.3);
+  border: 1px solid rgba(0, 255, 195, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffc3;
+  text-transform: uppercase;
+}
+
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.contact-info h1 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  color: blue;
+    font-family: "Gothan Black", Sans-serif;
+    font-size: 34px;
+}
+.contact-info span {
+  font-weight: 700;
+  color: #00bfa6;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #00ffc3;
+  color: #00ffc3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #00ffc3;
+  color: #0a0f24;
+}
+
+.facebook:hover {
+  box-shadow: 0px 0px 20px rgba(59, 89, 152, 0.5);
+}
+
+.twitter:hover {
+  box-shadow: 0px 0px 20px rgba(29, 161, 242, 0.5);
+}
+
+.instagram:hover {
+  box-shadow: 0px 0px 20px rgba(193, 53, 132, 0.5);
+}
+
+.linkedin:hover {
+  box-shadow: 0px 0px 20px rgba(0, 119, 181, 0.5);
+}
+container-rodape {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #5271ff;
+  padding-top: 60px;
+}
+
+.rodape__logo{
+  position: absolute;
+  background-color: blueviolet;
+  right: 80;
+}
+
+.contatos {
+  flex-grow: 0.35;
+  flex-basis: 200;
+  color: #fff;
+}
+
+.contatos p img {
+  border-radius: 25px;
+  mix-blend-mode: screen;
+  width: 30px;
+}
+
+.endereco {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  margin-right: 40px;
+}
