@@ -1,0 +1,208 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  background-color: #5271ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+i#burguer{
+  background-color: none;
+  color: white;
+  display: block;
+  text-align: center;
+
+  height: 25px;
+  margin-top: 31px;
+  margin-right: 20px;
+}
+
+i#burguer:hover{
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.logo-imagem > img{
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.container-logo{
+  display: flex;
+  align-items: center;
+}
+.logo-texto{
+  margin-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+menu{
+  align-items: center;
+}
+
+menu > ul{
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+menu > ul > li{
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+menu > ul > li > a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+menu > ul > li > a:hover{
+  text-decoration: underline;
+  padding-bottom: 2px;
+  transition: background-color .5s;
+
+}
+@media screen and (min-width: 768px){
+  i#burguer{
+      display:none
+  }
+  menu{
+      display: block;
+  }
+
+  menu > ul > li{
+      display: inline-block;
+  }
+
+}
+
+
+.teste__foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  padding-top: 0px;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    filter: drop-shadow(0px 0 px 12px black);
+  }
+}
+
+.image {
+  position: relative;
+  filter: blur(1.8px);
+  width: inherit;
+}
+
+.image-text {
+  position: absolute;
+  color: #fff;
+  font-size: 50px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: max(30px, 5vw);
+  color: #5271ff;
+  margin-top: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.texto {
+  text-align: center;
+  font-size: min(20px, 5vw);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo {
+  margin-bottom: 5rem;
+}
+
+.missao {
+  margin-bottom: 5rem;
+}
+
+.visao {
+  margin-bottom: 5rem;
+}
+
+.valores {
+  margin-bottom: 5rem;
+}
+
+.valores__lista {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  list-style: none;
+}
+
+
+.container-rodape {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #5271ff;
+  padding-top: 60px;
+}
+.container-copyright{
+  position: absolute;
+  top: 70%;
+  right: 8%;
+}
+.rodape__logo{
+  position: static;
+  left: 0;
+}
+
+.contatos {
+  flex-grow: 0.35;
+  flex-basis: 200;
+  color: #fff;
+}
+
+.contatos p img {
+  border-radius: 25px;
+  mix-blend-mode: screen;
+  width: 30px;
+}
+
+.endereco {
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  margin-right: 40px;
+}

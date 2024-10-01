@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/sobrenos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/cabecalho.css">
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <div class="container-logo">
+            <div class="logo-imagem">
+                <img src="/img/Logo.png" width="70px" alt="">
+            </div>
+
+            <div class="logo-texto">
+                <h2>Morrer Bem</h2>
+            </div>
+
+        </div>
+        <div class="menu">
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </menu>
+        </div>
+
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+    </header>
+
+    <div class="teste__foto">
+        <nav>
+            <div class="image">
+                <img src="img/pikaso_texttoimage_funeralNew.jpeg" alt="">
+            </div>
+            <div class="image-text">
+                <h1>SOBRE NÓS</h1>
+            </div>
+        </nav>
+    </div>
+
+    <div class="|">
+        <main class="container">
+            <div class="grupo">
+                <h1 class="titulo">O GRUPO</h1>
+                <p class="texto"> A Morrer Bem é uma das maiores empresas do Ramo Funeral do Estado do Rio de Janeiro.
+                    Está localizada na cidade de Petrópolis, mais especificamente no bairro Itaipava, onde se encontra o
+                    prédio principal, dotado de ampla estrutura e profissionais capacitados para melhor lhe atender.</p>
+            </div>
+            <div class="missao">
+                <h1 class="titulo">Missão</h1>
+                <p class="texto"> Nossa missão é auxiliar famílias com respeito, dignidade e apoio emocional, garantindo que
+                    cada
+                    despedida seja marcada pela serenidade e pelo cuidado.
+                    Nosso compromisso é oferecer serviços personalizados, com uma abordagem humana e acolhedora, para que
+                    você e seus entes queridos possam enfrentar esse momento com tranquilidade e paz de espírito.</p>
+            </div>
+            <div class="visao">
+                <h1 class="titulo">Visão</h1>
+                <p class="texto">Ser referência em serviços funerários, reconhecida pela excelência no atendimento e pelo
+                    cuidado com cada
+                    detalhe, a fim de proporcionar às famílias uma despedida digna e serena. A Morrer Bem busca
+                    constantemente inovar e aprimorar seus serviços, mantendo o compromisso com o acolhimento, respeito e
+                    apoio em todos os momentos.</p>
+            </div>
+            <div class="valores">
+                <h1 class="titulo">Valores</h1>
+                <ul class="valores__lista">
+                    <li><span>&#x1F5F8</span>Seriedade</li>
+                    <li><span>&#x1F5F8</span>Acolhimento</li>
+                    <li><span>&#x1F5F8</span>Compromisso</li>
+                    <li><span>&#x1F5F8</span>Cidadania</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <footer class="container-rodape">
+
+        <div class="rodape__logo"></div>
+        <img src="img/Logo.png" alt="" width="200px">
+        </div>
+
+        <div class="contatos">
+            <h1 style="font-size: 5em;">24h</h1>
+            <h1>atendimento</h1>
+            <p> contato@morrerbem.com.br</p>
+            <p><img src="img/—Pngtree—whatsapp white icon free logo_3570414.png" alt="">
+                (24) 99999-7777</p>
+        </div>
+
+        <div class="endereco">
+            <p>Estrada união e industria, 12579</p>
+            <p>CNPJ 00.123.456.0001-00</p>
+        </div>
+
+        <div class="container-copyright">
+        <p style="color: #fff;">&copy; MorrerBem serviços de funeral ltda.</p>
+        </div>
+
+    </footer>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+
+</body>
+
+</html>
