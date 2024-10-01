@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/cabecalho.css">
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="container-logo">
+            <div class="logo-imagem"><img src="/img/Logo.png" width="70px" alt=""></div>
+            <div class="logo-texto">
+                <h2>Morrer Bem</h2>
+            </div>
+        </div>
+        <div class="menu">
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </menu>
+        </div>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+    </header>
+    <main>
+        <section class="feedback">
+            <div class="container-texto">
+                <h1>Feedback</h1>
+                <div class="depoimento">
+                    <h3><img src="/img/pessoa.png" alt="">Joaozinho</h3>
+                    <p>Em um momento de tristeza, o plano fez com que eu não precisasse me procupar com nada. Gostaria
+                        de
+                        agradecer a empresa!</p>
+                </div>
+                <div class="depoimento">
+                    <h3><img src="/img/josefina.png" alt="" width="27">Josefina</h3>
+                    <p>Planos justos e de grande ajuda!</p>
+                </div>
+                <div class="depoimento">
+                    <h3><img src="/img/adao.png" alt="">Adão</h3>
+                    <p>Excelente empresa</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #5271ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+i#burguer{
+    background-color: none;
+    color: white;
+    display: block;
+    text-align: center;
+    height: 25px;
+    margin-top: 31px;
+    margin-right: 20px;
+}
+
+i#burguer:hover{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.logo-imagem > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+menu{
+    align-items: center;
+}
+
+menu > ul{
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+menu > ul > li{
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+menu > ul > li > a:hover{
+    text-decoration: underline;
+    padding-bottom: 2px;
+    transition: background-color .5s;
+
+}
+@media screen and (min-width: 768px){
+    i#burguer{
+        display:none
+    }
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+}
+.container-texto{
+    padding: 150px;
+}
+.container-texto > h1{
+    text-align: center;
+    color: white;
+    background-color: #5271ff;
+
+}
+.container-texto > .depoimento{
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    margin: 1px 5px;
+    margin-bottom: 20px;
+}
+.container-texto > p{
+    background-color: black;
+}
+.container-texto > div > h3{
+    color: royalblue;
+}
+.container-texto > div > h3 > img{
+    height: 25px;
+    border-radius: 25px;
+}
