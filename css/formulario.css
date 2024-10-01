@@ -32,8 +32,9 @@ label {
     margin-bottom: 5px;
 }
 
-h2 {
-    font-family: Apple Chancery, cursive;
+.formulario > h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5271FF;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -71,6 +72,7 @@ main {
     margin: auto;
     width: 20%;
     margin-top: 5%;
+    padding-top: 170px;
 }
 
 footer {

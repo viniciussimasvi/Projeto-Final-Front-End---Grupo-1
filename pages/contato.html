@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/cabecalho.css">
+
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <div class="container-logo">
+            <div class="logo-imagem"><img src="/img/Logo.png" width="70px" alt=""></div>
+            <div class="logo-texto">
+                <h2>Morrer Bem</h2>
+            </div>
+        </div>
+        <div class="menu">
+            <menu id="itens">
+                <ul>
+                    <li><a href="/pages/index.html">Início</a></li>
+                <li><a href="/pages/index.html#carouselExampleControls">Planos</a></li>
+                <li><a href="/pages/sobreNos.html">Sobre Nós</a></li>
+                <li><a href="/pages/contato.html">Contato</a></li>
+                </ul>
+            </menu>
+        </div>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="/img/contato.png" alt=>
+        </div>
+        <div class="contact-card">
+
+            <div class="contact-info">
+                <h1> MAIS INFORMAÇÕES:</h1>
+                <p><span> WHATSAPP</span> +55 (21) 98765-4321 +55 (21) 988475931</p>
+                <p><span> E-mail:</span> morrerbemsp@example.com</p>
+                <p><span> Redes Sociais:</span></p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/seuperfil" target="_blank" class="icon facebook">Facebook</a>
+                    <a href="https://twitter.com/seuperfil" target="_blank" class="icon twitter">Twitter</a>
+                    <a href="https://instagram.com/seuperfil" target="_blank" class="icon instagram">Instagram</a>
+                    <a href="https://linkedin.com/in/seuperfil" target="_blank" class="icon linkedin">LinkedIn</a>
+                    <div class="image-container">
+                        <img src="mapa.png" alt=>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-rodape">
+
+            <div class="rodape__logo"></div>
+            <img src="img/Logo.png" alt="" width="200px">
+    </div>
+
+
+    <div class="contatos">
+        <h1 style="font-size: 5em;">24h</h1>
+        <h1>atendimento</h1>
+        <p> contato@morrerbem.com.br</p>
+        <p><img src="/img/—Pngtree—whatsapp white icon free logo_3570414.png" alt="">
+            (24) 99999-7777</p>
+    </div>
+
+    <div class="endereco">
+        <p>Estrada união e industria, 12579</p>
+        <p>CNPJ 00.123.456.0001-00</p>
+    </div>
+
+    <div class="container-copyright"></div>
+    <p style="color: #fff;">&copy; MorrerBem serviços de funeral ltda.</p>
+    </div>
+
+
+    </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

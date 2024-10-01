@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header{
+/* header{
   position: fixed;
   width: 100%;
   background-color: #5271ff;
@@ -89,7 +89,7 @@ menu > ul > li > a:hover{
       display: inline-block;
   }
 
-}
+} */
 
 
 .teste__foto {
