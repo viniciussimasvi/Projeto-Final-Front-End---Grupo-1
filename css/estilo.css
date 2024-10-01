@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da tela */
+    margin: 0; /* Remove margens do body */
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+.carousel {
+    max-width: 800px; /* Define uma largura máxima para o carrossel */
+    width: 100%; /* Faz o carrossel ocupar toda a largura disponível */
+}
+
+.card{
+ max-width: 500px; /*Largura máxima*/
+ height: 500px; /*Altura do card*/
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.carousel-item img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do item */
+    max-height: 220px; /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Cobre a área do contêiner mantendo a proporção */
+}
+
+.card-title{
+    text-align: center;
+    color: #13559A;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.card-button{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn{
+background-color:  #13559A;
+color: #fff;
+text-decoration: none;
+    
+}
