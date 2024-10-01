@@ -10,6 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    z-index: 1;
 }
 
 i#burguer{
@@ -85,6 +86,67 @@ menu > ul > li > a:hover{
     menu > ul > li{
         display: inline-block;
     }
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    padding-top: 350px;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+
+.carousel {
+    max-width: 800px; 
+    width: 100%; 
+}
+.carousel-control-next{
+    z-index: 0;
+}
+.carousel-control-prev{
+    z-index: 0;
+}
+
+.card{
+ max-width: 500px; 
+ height: 500px; 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.carousel-item img {
+    width: 100%;
+    max-height: 220px; 
+    object-fit: cover; 
+}
+
+.card-title{
+    text-align: center;
+    color: #13559A;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-button{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn{
+background-color:  #13559A;
+color: #fff;
+text-decoration: none;
+}
+.container-texto{
+    padding: 150px;
 }
 .container-texto{
     padding: 150px;
