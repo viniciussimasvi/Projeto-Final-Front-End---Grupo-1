@@ -162,7 +162,6 @@ nav {
 }
 
 .valores__lista {
-  text-decoration: none;
   font-size: 1.5rem;
   text-align: center;
   list-style: none;
@@ -190,7 +189,7 @@ nav {
 
 .contatos {
   flex-grow: 0.35;
-  flex-basis: 200;
+  flex-basis: 100;
   color: #fff;
 }
 
